@@ -14,8 +14,7 @@ namespace Labb3_Polymorphism
         }
         public override double Area()
         {
-            double result = Pi * Math.Pow(Radie, 2);
-            return result;
+            return Pi * Math.Pow(Radie, 2);
         }
     }
 }
