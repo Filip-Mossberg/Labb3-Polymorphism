@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Labb3_Polymorphism
 {
     internal class Square : Geometry 
     {
         public double Length { get; set; }
-        public Square(double _Length = 4)
+        public Square()
         {
-            this.Length = _Length;
+            this.Length = 4;
         }
         public override double Area()
         {

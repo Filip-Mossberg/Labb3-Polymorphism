@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Labb3_Polymorphism
 {
@@ -8,9 +6,9 @@ namespace Labb3_Polymorphism
     {
         public int Radie { get; set; }
         public double Pi = 3.14;
-        public Circle(int _Radie = 5)
+        public Circle()
         {
-            this.Radie = _Radie;
+            this.Radie = 5;
         }
         public override double Area()
         {

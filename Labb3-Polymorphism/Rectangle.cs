@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Labb3_Polymorphism
 {
@@ -8,10 +6,10 @@ namespace Labb3_Polymorphism
     {
         public double Length { get; set; }
         public double Height { get; set; }
-        public Rectangle(double _Length = 7, double _Height = 3)
+        public Rectangle()
         {
-            this.Length = _Length;
-            this.Height = _Height;
+            this.Length = 7;
+            this.Height = 3;
         }
         public override double Area()
         {

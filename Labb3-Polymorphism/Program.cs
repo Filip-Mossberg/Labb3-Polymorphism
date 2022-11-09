@@ -9,7 +9,7 @@ namespace Labb3_Polymorphism
             Geometry geometry = new Geometry();
 
             geometry = new Circle();
-            Console.WriteLine($"Area Cicle: {geometry.Area()}");
+            Console.WriteLine($"Area Circle: {geometry.Area()}");
 
             geometry = new Rectangle();
             Console.WriteLine($"Area Rectangle: {geometry.Area()}");
