@@ -6,16 +6,14 @@ namespace Labb3_Polymorphism
     {
         static void Main(string[] args)
         {
-            Geometry geometry = new Geometry();
+            Geometry circle = new Circle();
+            Console.WriteLine($"Area Circle: {circle.Area()}");
 
-            geometry = new Circle();
-            Console.WriteLine($"Area Circle: {geometry.Area()}");
+            Geometry rectangle = new Rectangle();
+            Console.WriteLine($"Area Rectangle: {rectangle.Area()}");
 
-            geometry = new Rectangle();
-            Console.WriteLine($"Area Rectangle: {geometry.Area()}");
-
-            geometry = new Square();
-            Console.WriteLine($"Area Square: {geometry.Area()}");
+            Geometry square = new Square();
+            Console.WriteLine($"Area Square: {square.Area()}");
 
             Console.ReadKey();
         }
